@@ -1,0 +1,106 @@
+body{
+			font-family: 'Poor Story', cursive;
+
+  		}
+  		.navbar{
+  			background-color: #04337c;
+  			font-size: 15px;
+  		}
+  		.navbar-nav li a{
+  			color: #fff !important;
+  		}
+  		.navbar-nav li a:hover, .navbar-nav li.active a{
+  			color: #04337c !important;
+  			background-color: #fff !important;
+  		}
+  		.navbar-brand{
+  			color: #ffffff !important;
+  		}
+  		.jumbotron{
+  			color: #fff !important;
+			background-color: #04337c;
+  		}
+  		.jumbotron h1{
+  			font-size: 70px;
+  			vertical-align: text-bottom;
+  		}
+  		.jumbotron p{
+  			font-size: 20px;
+  		}
+  		.jumbotron footer{
+  			color: #fff;
+  		}
+  		#about{
+  			padding: 60px 50px;
+  			text-align: justify;
+  			text-justify: inter-word;
+  		}
+  		#about img{
+  			box-shadow: 1px 1px 1px 1px;
+  		}
+  		#stories{
+  			background-color: #f2f2f2;
+  		}
+  		#stories p{
+  			font-size: 18px;
+  			text-align: justify;
+  			text-justify: inter-word;
+  		}
+  		.thumbnail{
+
+  		}
+  		.thumbnail:hover{
+  			box-shadow: 2px 2px 2px 2px;
+  		}
+  		#footer{
+  			background-color: #f2f2f2;
+  		}
+  		#footer a{
+  			text-decoration: underline;
+  		}
+  		#footer span{
+  			width: 80px;
+  		}
+  		slideanim {visibility:hidden;}
+	  	.slide {
+	      	animation-name: slide;
+	       -webkit-animation-name: slide;
+	        animation-duration: 1s;
+	       -webkit-animation-duration: 1s;
+	       visibility: visible;
+	  	}
+	  	@keyframes slide {
+	    	0% {
+	      		opacity: 0;
+	      		transform: translateY(70%);
+	    	} 
+	    	100% {
+	      	opacity: 1;
+	      	transform: translateY(0%);
+	    	}
+	  	}
+	  	@-webkit-keyframes slide {
+	    	0% {
+	      		opacity: 0;
+	      		-webkit-transform: translateY(70%);
+	    	} 
+	    	100% {
+	      		opacity: 1;
+	     		-webkit-transform: translateY(0%);
+	    	}
+	  	}
+	  	@media screen and (max-width: 768px) {
+	    	.col-sm-4 {
+	      		text-align: center;
+	      		margin: 25px 0;
+	    }
+	    .btn-lg {
+	        width: 100%;
+	        margin-bottom: 35px;
+	    }
+	  }
+	  @media screen and (max-width: 480px) {
+	    .logo {
+	        font-size: 150px;
+	    }
+	  }
