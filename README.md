@@ -9,4 +9,4 @@ The webpage can be found at the following link: https://codepen.io/sohaparvez/pe
 - [x] Works on all screen resolutions
 - [x] Cross-browser tested
 - [x] Uses ScrollSpy plugin
-- [x] Javascript used to create smooth scrolling effect
+- [x] jQuery used to create smooth scrolling effect
