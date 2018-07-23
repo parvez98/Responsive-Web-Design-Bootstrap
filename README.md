@@ -1,8 +1,8 @@
 # Responsive-Web-Design-Bootstrap
-A webpage, Be Inspired, that showcases inspiring stories of amazing people.
 
-## Be Inspired!
-The webpage can be found at the following link: https://codepen.io/sohaparvez/pen/VdNWjb
+
+## It's live!
+The web design can be found at the following link: https://parvez98.github.io/ 
 
 ## Features
 - [x] Utilizes Bootstrap to create a responsive design
